@@ -14,7 +14,7 @@ import java.util.Map;
  * @author tesic
  * @author wen
  */
-public abstract class AbstractReviewHandler {
+public abstract class AbstractReviewHandler implements Serializable{
 
     public AbstractReviewHandler() {
         database = new HashMap<>();
